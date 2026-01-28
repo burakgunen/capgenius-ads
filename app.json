@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "CapGenius",
+    "slug": "capgenius",
+    "version": "1.0.0",
+    "scheme": "capgenius",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.burakgunen.capgenius"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.burakgunen.capgenius"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d611df80-09bd-4cf6-a286-fc576c2f1f10"
+      }
+    }
+  }
+}

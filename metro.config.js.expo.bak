@@ -1,0 +1,13 @@
+// metro.config.js
+const { getDefaultConfig } = require('expo/metro-config');
+const path = require('path');
+
+// Projenin olduğu klasörü al
+const projectRoot = __dirname;
+const config = getDefaultConfig(projectRoot);
+
+// Garanti olsun diye tekrar tanımla
+config.projectRoot = projectRoot;
+
+// Eğer alias (@) sorunları devam ederse bunu da ekleyebiliriz ama şimdilik sade tutalım.
+module.exports = config;
