@@ -17,6 +17,12 @@
         "env": {
           "GRADLE_OPTS": "-Dorg.gradle.daemon=false -Dorg.gradle.parallel=false -Dorg.gradle.jvmargs=-Xmx3072m -XX:MaxMetaspaceSize=1024m"
         }
+      },
+      "env": {
+        "EXPO_PUBLIC_ADMOB_IOS_BANNER_ID": "ca-app-pub-5901111327912883/4516345258",
+        "EXPO_PUBLIC_ADMOB_IOS_INTERSTITIAL_ID": "ca-app-pub-5901111327912883/3819514715",
+        "EXPO_PUBLIC_ADMOB_ANDROID_BANNER_ID": "DUMMY",
+        "EXPO_PUBLIC_ADMOB_ANDROID_INTERSTITIAL_ID": "DUMMY"
       }
     }
   },

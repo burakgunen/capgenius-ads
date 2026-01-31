@@ -40,4 +40,16 @@ app-example
 
 # generated native folders
 /android
-/ios
+/ios.env
+
+# local secrets / env
+.env
+credentials.json
+
+# native folders (managed workflow)
+ios/
+android/
+
+# backups / junk
+*.bak.*
+node_modules.__trash__*

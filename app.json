@@ -2,7 +2,7 @@
   "expo": {
     "name": "CapGenius",
     "slug": "capgenius",
-    "version": "1.0.0",
+    "version": "1.4.9",
     "scheme": "capgenius",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
@@ -12,8 +12,13 @@
       "backgroundColor": "#0f172a"
     },
     "ios": {
+      "buildNumber": "44",
       "supportsTablet": true,
-      "bundleIdentifier": "com.burakgunen.capgenius"
+      "bundleIdentifier": "com.burakgunen.capgeniusapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "GADApplicationIdentifier": "ca-app-pub-5901111327912883~3259046434"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -26,6 +31,16 @@
       "eas": {
         "projectId": "d611df80-09bd-4cf6-a286-fc576c2f1f10"
       }
-    }
+    },
+    "newArchEnabled": false,
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "iosAppId": "ca-app-pub-5901111327912883~3259046434",
+          "androidAppId": "ca-app-pub-5901111327912883~3259046434"
+        }
+      ]
+    ]
   }
 }
