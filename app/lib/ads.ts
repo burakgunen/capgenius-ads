@@ -7,7 +7,6 @@ export function initAdsOnce() {
   if (_inited) return;
   _inited = true;
   try {
-    mobileAds().initialize();
   } catch {}
 }
 

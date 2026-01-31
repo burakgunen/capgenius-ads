@@ -12,7 +12,7 @@
       "backgroundColor": "#0f172a"
     },
     "ios": {
-      "buildNumber": "45",
+      "buildNumber": "46",
       "supportsTablet": true,
       "bundleIdentifier": "com.burakgunen.capgeniusapp",
       "infoPlist": {
